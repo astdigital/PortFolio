@@ -37,3 +37,19 @@ nav button.nav-active,nav button:hover{color:#65e653!important}
 .ring{border-top-color:#65e653!important;border-right-color:#65e653!important}
 .projects article,.contact form{background:#262b39!important;border-color:rgba(255,255,255,.12)!important}
 .contact input,.contact textarea{background:#1f2330!important;color:#fff!important}
+
+/* Red and black portfolio theme */
+:root{color-scheme:dark;--accent:#ef233c;--muted:#c5c5c9;--line:rgba(255,255,255,.12);background:#08090c;color:#f7f7f8}
+html,body,#root{min-height:100%;background:#08090c!important;color:#f7f7f8!important}
+body,header,footer{background:#08090c!important;color:#f7f7f8!important}
+.hero,.page-main,.page-section{background:transparent!important}
+.brand span,.hero h2 em,.about em,.contact em,.heading span{color:#ef233c!important}
+nav button.nav-active,nav button:hover{color:#ef233c!important}
+.btn{background:#ef233c!important;color:#fff!important;box-shadow:0 4px 18px rgba(239,35,60,.35)!important}
+.social{border-color:#ef233c!important;color:#ef233c!important}
+.social:hover{background:#ef233c!important;color:#fff!important}
+.ring{border-top-color:#ef233c!important;border-right-color:#ef233c!important;border-bottom-color:rgba(239,35,60,.35)!important}
+.projects article,.contact form{background:#141519!important;border-color:rgba(255,255,255,.12)!important}
+.contact input,.contact textarea{background:#090a0d!important;color:#fff!important}
+.contact input:focus,.contact textarea:focus{border-color:#ef233c!important}
+.service small,.service>svg,.service>b,.projects article>h3 a,.projects article>small,.mock b,.mock small,.email{color:#ef233c!important}
