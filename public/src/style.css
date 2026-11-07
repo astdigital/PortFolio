@@ -5,3 +5,18 @@
 @media(max-width:760px){section{padding:65px 6%}.hero{min-height:auto;grid-template-columns:1fr;gap:24px;padding-top:48px;text-align:left}.portrait{width:min(70vw,330px);grid-row:1}.hero>div:first-child{grid-row:2}.about,.contact{grid-template-columns:1fr;gap:25px}.projects{grid-template-columns:1fr 1fr}}
 @media(max-width:540px){header{height:auto;min-height:60px;padding:12px 5%;align-items:flex-start;gap:12px;flex-direction:column}.brand{font-size:19px}nav{width:100%;justify-content:space-between;gap:6px}nav a{font-size:10px}.hero{padding-top:36px;gap:20px}.hero h1{font-size:clamp(35px,10vw,52px);letter-spacing:-1.5px}.hero h2{font-size:clamp(17px,5vw,22px)}.hero p{font-size:11px}.portrait{width:min(76vw,285px)}section{padding:58px 6%}.projects{grid-template-columns:1fr}.projects article>img,.mock{height:210px}.service{grid-template-columns:24px 28px 1fr 14px;gap:9px;padding:18px 2px}.service h3{font-size:14px}.service p{font-size:11px}.contact h2{letter-spacing:-2px}footer{flex-wrap:wrap}footer small{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* One visible section at a time; restore original navy and green palette */
+:root{--accent:#65e653;background:#20232f;color:#f7f8fb}
+body,header{background:#20232f;color:#f7f8fb}
+.brand-button,.footer-top{background:none;border:0;color:inherit;cursor:pointer;font:inherit}
+.brand-button{font-size:20px;font-weight:800;letter-spacing:-.5px;padding:0}
+.brand-button span{color:var(--accent)}
+nav button{background:none;border:0;padding:8px 0;color:#f4f4f6;font:600 12px Poppins,sans-serif;cursor:pointer}
+nav button.nav-active,nav button:hover{color:var(--accent)}
+.page-main{min-height:calc(100svh - 125px)}
+.page-section{min-height:calc(100svh - 125px);animation:sectionIn .28s ease both}
+.hero.page-section{min-height:calc(100svh - 125px)}
+.footer-top{font-size:9px;letter-spacing:1px;color:var(--muted)}
+@keyframes sectionIn{from{opacity:.4;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:540px){nav button{font-size:10px}.brand-button{font-size:19px}.page-section,.hero.page-section{min-height:calc(100svh - 145px)}}
