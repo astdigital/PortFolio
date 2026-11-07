@@ -20,3 +20,20 @@ nav button.nav-active,nav button:hover{color:var(--accent)}
 .footer-top{font-size:9px;letter-spacing:1px;color:var(--muted)}
 @keyframes sectionIn{from{opacity:.4;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:540px){nav button{font-size:10px}.brand-button{font-size:19px}.page-section,.hero.page-section{min-height:calc(100svh - 145px)}}
+
+/* Reference palette: deep charcoal-navy with vivid lime green */
+:root{color-scheme:dark;--accent:#65e653;--muted:#d2d5de;--line:rgba(255,255,255,.10);background:#1f2330;color:#fff}
+html,body,#root{min-height:100%;background:#1f2330!important;color:#fff!important}
+body{background:#1f2330!important}
+header,footer{background:#1f2330!important}
+.hero,.page-main,.page-section{background:transparent!important}
+.hero h1,.hero h2,.heading,.about h3,.contact h2{color:#fff}
+.hero h2 em,.about em,.contact em,.heading span,.brand span{color:#65e653!important}
+nav button{color:#f4f5f8!important}
+nav button.nav-active,nav button:hover{color:#65e653!important}
+.btn{background:#65e653!important;color:#101a12!important;box-shadow:0 4px 16px rgba(101,230,83,.42)!important}
+.social{border-color:#65e653!important;color:#65e653!important}
+.social:hover{background:#65e653!important;color:#111!important}
+.ring{border-top-color:#65e653!important;border-right-color:#65e653!important}
+.projects article,.contact form{background:#262b39!important;border-color:rgba(255,255,255,.12)!important}
+.contact input,.contact textarea{background:#1f2330!important;color:#fff!important}
