@@ -1,1 +1,1 @@
-Deployment trigger: reference-matched portfolio refresh and profile image.
+Reference-matched homepage, responsive layout, and profile image deployment trigger.
